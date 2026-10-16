@@ -1,0 +1,52 @@
+.bannerContainer {
+
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: var(--secondaryBlack);
+    padding-left: 12rem;
+    background-image: url("/assets/home/desktop/image-hero.jpg");
+    background-size: cover;
+    background-position: center -150px;
+    background-repeat: no-repeat;
+    min-width: 100%;
+    min-height: 600px;
+
+
+}
+
+.bannerLeft {
+
+    flex: 2;
+    position: relative;
+
+
+}
+
+
+.bannerLeft h2 {
+    font-size: 28px;
+}
+
+.bannerLeft h1 {
+    font-size: 56px;
+
+}
+
+
+/* end of the left side */
+
+
+.bannerRight {
+    flex: 4.5;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+}
+
+.bannerRight img {
+    background-size: cover;
+
+}

@@ -1,0 +1,15 @@
+import Image from "next/image";
+import Header from "./components/Header/Header";
+import Banner from "./components/Banner/Banner";
+
+export default function Home() {
+  return (
+    <div className="parentContainer">
+      <Header />
+      <div className="container">
+        <Banner />
+
+      </div>
+    </div>
+  );
+}
